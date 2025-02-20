@@ -217,7 +217,7 @@ td img{
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Style inputs iwth type="text", */
+/* Style inputs with type="text", */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -229,7 +229,7 @@ input[type=text], select, textarea {
   resize: vertical
 }
 
-/* styleing the submit button */
+/* styling the submit button */
 input[type=submit] {
   background-color: aqua;
   color: rgb(0, 0, 0);
