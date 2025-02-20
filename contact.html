@@ -43,16 +43,16 @@
     <br>
     <!-- Contact us form -->
     <div class="container0">
-        <form name="Contactform " action="Thank.html" onsubmit="return validateForm()" method="post">
+        <form name="Contactform " action="Thank.html" onsubmit="return validateForm()" method="post" autocomplete="on">
 
             <label for="fname">First Name</label>
-            <input type="text" id="Fname" name="firstname" placeholder="Your name...">
+            <input type="text" id="Fname" name="firstname" placeholder="Your name..." required>
 
             <label for="lname">Surname</label>
-            <input type="text" id="lname" name="lastname" placeholder="Surname...">
+            <input type="text" id="lname" name="lastname" placeholder="Surname..." required>
 
             <label for="email">email</label>
-            <input type="text" id="email" name="email" placeholder="1234@example.co.uk">
+            <input type="text" id="email" name="email" placeholder="1234@example.co.uk" required>
 
             <label for="country">Country</label>
             <select name="country" id="country">
