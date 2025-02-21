@@ -9,7 +9,7 @@ img {
     float: left;
 }
 
-
+/* this is the code made to style the intro on the home page and is my own code */
 .Intro {
  position: relative;
  font-family: 'Courier New', Courier, monospace;
@@ -25,7 +25,7 @@ img {
  margin-left: auto;
  margin-right: auto;
 }
-
+/* This is the code made to style the writing on the news page and is my own code */
 .News{
   position: relative;
   font-family: 'Courier New', Courier, monospace;
@@ -46,7 +46,7 @@ body, html {
     height: 100%;
     margin: 0;
   }
-  
+ /* this is the code used to insert the company logo into the background of the page and is my own code */ 
   .bg {
     /* The image used */
     background-image: url("Garms.png");
@@ -59,7 +59,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+/* below is the code used to style the image containers on the home page and can be found at https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp */ 
   div.scroll-container1 {
     background-color: #333;
     overflow: auto;
@@ -110,7 +110,7 @@ div.scroll-container3 img {
 
     
 }
-
+/* Below is the code for the buttons to add items to a cart, this is my own code */
 .button1 {
     background-color: rgb(0, 213, 255);
     border: none;
@@ -157,9 +157,9 @@ div.scroll-container3 img {
   }
 
   /* Shopping cart */
-
+/* this is the code used to style the shoping cart, the code was found at https://www.youtube.com/watch?v=oXrlgOEiy6o */
 .cart-page {
-  margin: 80px auto;
+  margin: 80px auto; 
 }
 
 table {
@@ -256,7 +256,7 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-/* thank you for contacting  */
+/* thank you for contacting, this styles the text shown after making a purchase and is my own code */
 .Thankyou {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -265,7 +265,7 @@ input[type=submit]:hover {
   background-color: rgb(84, 88, 92);
   padding: 20px;
 }
-
+/* this is the code that styles the button to add to cart, this is my own code */ 
 .cartbutton {
   background-color: #00a2ff;
   color: white;
@@ -279,6 +279,7 @@ a:hover, .cartbutton:active {
   background-color: #00a2ff;
 }
 
+/* this is the code that styles the button to remove from cart, this code can be found at https://www.youtube.com/watch?v=oXrlgOEiy6o */
 .buttonexe {
   display: none;
 }
