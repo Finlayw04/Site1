@@ -18,6 +18,7 @@
     
 <header>
     <!-- navbar -->
+     <!-- This is the code for the navbar and was made using different peices of ccode from https://mdbootstrap.com/docs/standard/navigation/navbar/-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <!-- Brand name, pressing the brand name in the nav bar will return the user to the home page  -->
@@ -65,13 +66,15 @@
  set too will allow the user to scroll left to right to see the images
  if the imagages are larger then users will be able to scroll through them
  -->
+ <!-- This code is the image container and was found at https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp -->
     <div class="scroll-container1">
         <img src="clothes/SilenceClose.png" alt="hoodie close" width="300" height="400">
         <img src="clothes/silenceback.png" alt="hoodie back" width="300" height="400">
-        <img src="clothes/SilenceFront.png" alt="hoodie front" width="300" height="400">
+        <img src="clothes/SilenceFront.png" alt="hoodie front" width="300" height="400"> <!-- image of the front of the hoodie-->
         <img src="clothes/SilenceCuffs.png" alt="hoodie cuffs" width="300" height="400">
         <img src="clothes/silenceback.png" alt="hoodie back" width="300" height="400">
     </div>
+
     <br>
     <div class="silence">
         <h1>Silence Of The Damned</h1>
@@ -129,30 +132,7 @@
         <button class="buttonexe" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <footer></footer>
     </div>
-    <script>document.addEventListener("DOMContentLoaded", function () {
-        let scrollbutton = document.getElementById("myBtn")
-    
-        window.addEventListener("scroll", scrollFunction)
-    
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTo > 20) {
-                scrollbutton.style.display = "block"
-                scrollbutton.classList.add("visible")
-            }
-            else {
-                scrollbutton.classList.add("")
-                scrollbutton.style.display = "none"
-            }
-        }
-    
-        scrollbutton.addEventListener("click", backToTop)
-    
-        function backToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    })
-    </script>
+
 </body>
 
 </html>
