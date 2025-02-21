@@ -218,6 +218,7 @@ td img{
 }
 
 /* Style inputs with type="text", */
+/* this is the code used to style the contact form and that code was found at https://www.w3schools.com/howto/howto_css_contact_form.asp*/
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
