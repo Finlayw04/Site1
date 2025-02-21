@@ -163,53 +163,53 @@ div.scroll-container3 img {
 }
 
 table {
-width: 100%;
-border-collapse: collapse;
+width: 100%; /* this code is used to make the table take up the full width of the page */
+border-collapse: collapse;/* this code is used to remove the space between the cells */
 }
 
 .cart-info {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  display: flex;/* this code is used to make the table display as a flexbox */
+  flex-wrap: wrap;/* this code is used to make the table wrap when it reaches the end of the page */
+  font-size: 20px;/* this code is used to set the font size of the table */
+  font-family: 'Courier New', Courier, monospace;/* this code is used to set the font family of the table */
 }
 
 th{
-  text-align: left;
-  padding: 5px;
-  color: aqua;
-  background: #333;
-  font-weight: normal;
-  font-family: 'Courier New', 'Courier New', Courier, monospace;
+  text-align: left;/* this code is used to align the text to the left of the table */
+  padding: 5px;/* this code is used to add padding to the table */
+  color: aqua;/* this code is used to set the text color of the table */
+  background: #333;/* this code is used to set the background color of the table */
+  font-weight: normal;/* this code is used to set the font weight of the table */
+  font-family: 'Courier New', 'Courier New', Courier, monospace;/* this code is used to set the font family of the table */
 
 }
 
 td{
-  padding: 10px 5px;
+  padding: 10px 5px;/* this code is used to add padding to the table */
 }
 
 td input{
-  width: 40px;
-  height: 30px;
-  padding: 5px;
+  width: 40px;/* this code is used to set the width of the input field */
+  height: 30px;/* this code is used to set the height of the input field */
+  padding: 5px;/* this code is used to add padding to the input field */
 
 }
 
 td a{
-  color: aqua;
-  font-size: 18px;
+  color: aqua;/* this code is used to set the text color of the table */
+  font-size: 18px;/* this code is used to set the font size of the table */
 }
 
 td img{
-  height: 200px;;
-  margin-right: 10px;
+  height: 200px;;/* this code is used to set the height of the image */
+  margin-right: 10px;/* this code is used to add margin to the right of the image */
 }
 
 .message{
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  color: aqua;
-  background: #333;
+  text-align: center;/* this code is used to align the text to the center of the page */
+  font-family: 'Courier New', Courier, monospace;/* this code is used to set the font family of the text */
+  color: aqua;/* this code is used to set the text color of the text */
+  background: #333;/* this code is used to set the background color of the text */
 }
 
 .aboutcard {
